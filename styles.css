@@ -1,0 +1,55 @@
+/*selectores de etiquetas*/
+/*EL HEADER ES UN SELECTOR*/
+header { 
+    background-color: #042758; /* Color de fondo del encabezado */
+    color: #ffffff;            /* Color del texto del encabezado */
+    padding: 20px;               /* Espacio interno del encabezado */
+    text-align: center;          /* Alineación del texto al centro */
+}
+
+/*selectores de clases*/
+.barra-navegacion{
+    background-color: #3573cf; /* Color de fondo de la barra */
+    padding: 10px;             /* Espacio interno de la barra */
+    text-align: center;        /* Alineación del texto al centro */
+}
+/*selectores de etiquetas hijas*/
+.barra-navegacion a {
+    color: #ffffff;            /* Color del texto de los enlaces */
+    margin: 0 15px;            /* Margen entre los enlaces */
+}
+/*selectores de id*/
+#perfil {
+    background-color: #d3cccc; /* Color de fondo del perfil */
+    padding: 20px;             /* Espacio interno del perfil */
+    border-radius: 25px;        /* Bordes redondeados del perfil */
+    border-style: dashed;       /* Estilo de borde del perfil */
+    text-align: justify;        /* Alineación del texto justificado */
+    font-weight: 200;        /* Peso de la fuente del perfil */
+}
+/*para colocar solores al pasar el coursor del mouse*/
+/*selector de pseudo-clases*/
+.barra-navegacion a:hover {
+    color: #e79907;            /* Color del texto al pasar el mouse */
+}
+
+#habilidades:hover {
+    background-color: #aaaab3; /* Color de fondo al pasar el mouse */
+    color: #ffffff;            /* Color del texto al pasar el mouse */
+}   
+
+
+/*EL NAV ES UN SELECTOR*/
+nav {
+    background-color: #f2f2f2; /* Color de fondo del menú de navegación */
+    padding: 10px;             /* Espacio interno del menú de navegación */
+    text-align: center;        /* Alineación del texto al centro */
+}
+
+/*EL FOOTER ES UN SELECTOR*/
+footer {
+    background-color: #042758; /* Color de fondo del pie de página */
+    color: #ffffff;            /* Color del texto del pie de página */
+    padding: 10px;             /* Espacio interno del pie de página */
+    text-align: center;        /* Alineación del texto al centro */
+}
